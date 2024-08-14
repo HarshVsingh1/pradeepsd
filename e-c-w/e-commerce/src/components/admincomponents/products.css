@@ -1,0 +1,89 @@
+#productContainer {
+    display: flex;
+}
+
+#addProduct {
+    width: 1000px;
+    height: 330px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 20px rgba(37, 33, 33, 0.1);
+}
+
+#recentlyAddedProducts {
+    box-shadow: 2px 2px 20px rgba(37, 33, 33, 0.1);
+border-radius: 20px;
+margin: 20px;
+flex: 1;
+}
+
+#editProduct {
+    width: 1000px;
+    height: 330px;
+    border-radius: 20px;
+    margin: 20px;    
+    box-shadow: 2px 2px 20px rgba(37, 33, 33, 0.1);
+}
+
+.ProductText {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+
+}
+
+.infoText {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 0 30px;
+    width: 490px;
+}
+
+#descriptionAndImageSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptionAndImageSection {
+   width: 250px;
+   height: 250px;
+}
+
+.custom-file-upload {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: red; /* Set your desired background color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  .showSelectedImage {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+  }
+
+  #image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }

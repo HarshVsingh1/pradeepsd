@@ -1,0 +1,48 @@
+#productcardDimension {
+    height: 550px;  
+    margin: 20px ;
+    
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(37, 33, 33, 0.1);
+}
+
+#productDescription {
+   
+    width: 300px;
+    flex: 1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+#imageBox {
+    height: 250px;
+
+}
+
+#productName {
+     margin: 10px;
+     font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#descriptionText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    height: 100px;
+
+}
+
+#priceBox {
+    color: red;
+    margin: 10px;
+}
+
+#buttonSection {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 10px ;
+}

@@ -1,0 +1,35 @@
+.cardContainer {
+    height: 270px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 2px 2px 50px rgb(23, 1, 122 ,0.2);
+    border-radius: 10px;
+
+}
+
+.icon {
+    height: 70px;
+}
+
+.cardTitle {
+    font-family: "Roboto", sans-serif; 
+
+}
+
+.cardDescription {
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    padding: 15px;
+}
+
+#mainCardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}

@@ -1,0 +1,55 @@
+#schemesContainer {
+    margin: 100px 200px;
+}
+
+#block {
+    height: 50px;
+    width: 25px; 
+    background-color: #fc0116; 
+    border-radius: 5px;
+  }
+  
+  
+  #titleText { 
+  
+    font-size: large; 
+    color: red; 
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  #title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  #subTitleAndTitleText {
+    font-size: 35px; 
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+
+  .schemesCard {
+    height: 100px;
+    box-shadow: 2px 2px 50px rgb(23, 1, 122 ,0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 10px  10px; 
+    margin-top: 20px;
+
+  }
+
+  .schemeTitle {
+    font-family: "Roboto", sans-serif; 
+    font-size: larger;
+
+  } 
+
+  .schemeCardContainer {
+     
+  }

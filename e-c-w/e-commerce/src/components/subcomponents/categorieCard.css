@@ -1,0 +1,22 @@
+
+#cardDimension {
+    height: 350px; 
+    width: 250px; 
+    box-shadow: 2px 2px 20px rgb(31, 29, 29 , 0.1);
+    border-radius: 20px;
+   
+}
+
+#imageBox {
+    height: 250px;
+}
+
+#productName {
+     margin: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#priceBox {
+    color: red;
+    margin: 0 8px;
+}

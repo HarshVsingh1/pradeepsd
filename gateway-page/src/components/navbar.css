@@ -1,0 +1,31 @@
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%;
+  }
+  
+  #navButton {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+  }
+  
+  .navButtons {
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }    
+
+  #logo {
+    height: 50px;
+  }
+
+  .logotext {
+    font-family: "Roboto", sans-serif; 
+    font-size: 30px; 
+    font-weight: 600 ;
+    color: rgb(34, 33, 33);
+  
+  }

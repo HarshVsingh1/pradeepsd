@@ -1,0 +1,30 @@
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%;
+}
+
+#navButton {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.navButtons {
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+} 
+
+#logo {
+    height: 40px;
+}
+
+#cartIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

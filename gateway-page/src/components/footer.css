@@ -1,0 +1,42 @@
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #213555;
+    box-shadow: 1px 1px 20px black;
+  }
+  
+  .tryoutbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background-color: #001C30;
+  }
+  
+  #info {
+    padding: 2% 0 0 3%;
+  }
+  
+  #realcontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+  }
+  
+  .icon {
+    color: black;
+  }
+  
+  
+  

@@ -1,0 +1,15 @@
+
+#productDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px ;
+}
+
+#loaderBox {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 500px;
+}
